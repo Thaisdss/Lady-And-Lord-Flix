@@ -1,0 +1,115 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-04-aluraflix-e-filmes.png");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 10px 15px 8;
+  display : flex;
+  flex-wrap : wrap;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+  font-size : 50px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+body > img {
+  margin: 0 10px;
+}
+
+img {
+  max-height: 250px;
+}
+
+section{
+  border-radius : 10px;
+  box-shadow : 3px 3px 10px white;
+  margin : auto;
+  padding : 15px;
+  width : 750px;
+  
+}
+
+p{
+  color : white;
+  font-size : 25px;
+margin-top : 16px;
+margin-bottom : 16px;
+}
+
+#comedia{
+  border-radius : 8px;
+  background-color : red;
+  color : white;
+  border-color : white;
+}
+
+#romance{
+  border-radius : 8px;
+  background-color : red;
+  color : white;
+  border-color : white;
+}
+
+#suspense{
+  border-radius : 8px;
+  background-color : red;
+  color : white;
+  border-color : white;
+}
+
+#terror{
+  border-radius : 8px;
+  background-color : red;
+  color : white;
+  border-color : white;
+}
+
+#ficcao{
+  border-radius : 8px;
+  background-color : red;
+  color : white;
+  border-color : white;
+}
+
+#CR{
+  border-radius : 8px;
+  background-color : red;
+  color : white;
+  border-color : white;
+}
+
+#cristao{
+  border-radius : 8px;
+  background-color : red;
+  color : white;
+  border-color : white;
+}
+
+#fantasia{
+  border-radius : 8px;
+  background-color : red;
+  color : white;
+  border-color : white;
+}
+
+#barbie{
+   border-radius : 8px;
+  background-color : red;
+  color : white;
+  border-color : white;
+}
+
