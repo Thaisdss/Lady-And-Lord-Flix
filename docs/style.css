@@ -1,29 +1,13 @@
 body {
   font-family: "Roboto Mono", monospace;
   text-align: center;
+  box-sizing: border-box;
   background-image: url("https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-04-aluraflix-e-filmes.png");
   background-color: #000000;
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
-}
-
-.container {
-  text-align: center;
-  padding: 10px 15px 8;
-  display : flex;
-  flex-wrap : wrap;
-}
-
-.page-title {
-  color: #ffffff;
-  margin: 0 0 5px;
-  font-size : 50px;
-}
-
-.page-subtitle {
-  color: #ffffff;
-  margin-top: 5px;
+  background-attchament: fixed;
 }
 
 body > img {
@@ -34,82 +18,52 @@ img {
   max-height: 250px;
 }
 
-section{
-  border-radius : 10px;
-  box-shadow : 3px 3px 10px white;
-  margin : auto;
-  padding : 15px;
-  width : 750px;
-  
+.page-title {
+  color: #ffffff;
+  font-size : 50px;
+}
+
+.container {
+   text-align: center;
+   width : 900px;
+   margin : 0 auto 30px auto;
+   border-radius : 10px;
+   box-shadow : 2px 2px 15px rgba(255,255,255, 0.3);
+  display : flex;
+  flex-wrap : wrap;
+  justify-content: space-evenly;
+  align-itens: center;
+}
+
+
+div{
+  width: 180px;
+  height: 130px;
+  margin: 30px 20px;
+  border: 3px solid white;
+  border-radius: 4px;
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 p{
   color : white;
   font-size : 25px;
-margin-top : 16px;
-margin-bottom : 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  align-self: center;
 }
 
-#comedia{
-  border-radius : 8px;
-  background-color : red;
+input{
+  background-color : darkred;
   color : white;
-  border-color : white;
+  font-size: 1.2em;
+  align-self: end;
+  border-color: transparent;
 }
 
-#romance{
-  border-radius : 8px;
-  background-color : red;
-  color : white;
-  border-color : white;
-}
-
-#suspense{
-  border-radius : 8px;
-  background-color : red;
-  color : white;
-  border-color : white;
-}
-
-#terror{
-  border-radius : 8px;
-  background-color : red;
-  color : white;
-  border-color : white;
-}
-
-#ficcao{
-  border-radius : 8px;
-  background-color : red;
-  color : white;
-  border-color : white;
-}
-
-#CR{
-  border-radius : 8px;
-  background-color : red;
-  color : white;
-  border-color : white;
-}
-
-#cristao{
-  border-radius : 8px;
-  background-color : red;
-  color : white;
-  border-color : white;
-}
-
-#fantasia{
-  border-radius : 8px;
-  background-color : red;
-  color : white;
-  border-color : white;
-}
-
-#barbie{
-   border-radius : 8px;
-  background-color : red;
-  color : white;
-  border-color : white;
+input:hover{
+  cursor: pointer;
+  background-color: red;
 }
 
