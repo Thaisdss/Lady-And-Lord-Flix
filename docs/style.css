@@ -71,3 +71,14 @@ button:hover{
   background-color: red;
 }
 
+#inicio{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  margin-right: 5px;
+}
+
+#inicio img{
+  width: 40px;
+}
+
